@@ -6,27 +6,32 @@
     .card{
         width: 300px;
         height: 320px;
-        background-color: red;
+        /* background-color: red; */
     }
 }
 
 
-/* TAMANHO DE TELA PARA O CELULAR */
+/* TAMANHO DE TELA PARA TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .card{
         width: 450px;
         height: 320px;
-        background-color: aqua;
+        /* background-color: aqua; */
     }
 }
 
-
+/* DESKTOP E TALAS MAIORES */
 @media screen and (min-width: 1024px) and (max-width: 2560px) {
     .card{
         width: 600px;
         height: 350px;
-        background-color: green;
+        /* background-color: green; */
     }
+
+    .card form{
+        gap: 30px;
+    }
+
 }
 
 
