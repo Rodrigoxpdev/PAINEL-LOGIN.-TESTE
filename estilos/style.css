@@ -64,6 +64,12 @@ ESSA CAIXA SE ADAPTA AO TAMANHO DO CONTEUDO , SE O CONTEUDO AUMENTA A CAIXA AUME
     justify-content: center;
 }
 
+/* COR DOS ICONES */
+span{
+    color: #27408b;
+}
+
+
 /* CAMPO DE TEXTO E SENHA */
 .card input[type="text"], 
 .card input[type="password"]{
@@ -75,12 +81,6 @@ ESSA CAIXA SE ADAPTA AO TAMANHO DO CONTEUDO , SE O CONTEUDO AUMENTA A CAIXA AUME
     font-size: 15px;
 }
 
-
-/* #btn {
-    width: 100%;
-    box-sizing: border-box;
-    } */
-
     .card input[type="text"],
     .card input[type="password"],
     .card input[type="submit"],
@@ -89,6 +89,8 @@ ESSA CAIXA SE ADAPTA AO TAMANHO DO CONTEUDO , SE O CONTEUDO AUMENTA A CAIXA AUME
         box-sizing: border-box;
     }
 
+
+/* BOTOES */
 #btn {
     max-width: 90%;
     padding: 8px;
@@ -109,6 +111,7 @@ ESSA CAIXA SE ADAPTA AO TAMANHO DO CONTEUDO , SE O CONTEUDO AUMENTA A CAIXA AUME
 
 }
 
+/* FORMULARIO */
 .card form div {
     width: 100%;
     display: flex;
@@ -116,7 +119,7 @@ ESSA CAIXA SE ADAPTA AO TAMANHO DO CONTEUDO , SE O CONTEUDO AUMENTA A CAIXA AUME
     gap: 8px;
 }
 
-
+/* LINK DO FORMULARIO */
 div a {
     text-align: center;
     justify-content: center;
@@ -133,17 +136,6 @@ div a:hover{
     color: #4169e1;
 }
 
-
-span{
-    color: #27408b;
-}
-
-@media screen and (max-width: 768px) {
-    .card{
-        width: 300px;
-        height: 320px;
-    }
-}
 
 
 
