@@ -119,10 +119,21 @@ div a {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    display: flex;
     margin-top: 20px;
+    color:#27408b ;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
 
+div a:hover{
+    color: #4169e1;
+}
+
+
+span{
+    color: #27408b;
+}
 
 @media screen and (max-width: 768px) {
     .card{
